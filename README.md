@@ -1,15 +1,24 @@
 #### FLASK RESTX BOILER-PLATE WITH JWT
 
+### python venv
+sudo apt install python3.8-venv
+
+python3 -m venv flask_restplus
+source $(pwd)/flask_restplus/bin/activate
+
+source $(pwd)/venv/bin/activate
+
 ### Terminal commands
 Note: make sure you have `pip` and `virtualenv` installed.
 
-    Initial installation: make install
-
-    To run test: make tests
-
-    To run application: make run
-
-    To run all commands at once : make all
+    # Initial installation (venv will be built)
+    make install
+    # To run test
+    make tests
+    # To run application
+    make run
+    # To run all commands at once
+    make all
 
 Make sure to run the initial migration commands to update the database.
     
